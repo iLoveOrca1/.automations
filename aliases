@@ -1,0 +1,67 @@
+alias home='cd ~'
+alias root='cd /'
+alias etc='cd /etc'
+alias opt='cd /opt'
+alias tmp='cd /tmp'
+alias dl='cd ~/Downloads'
+alias docs='cd ~/Documents'
+alias .1='cd ..'
+alias .2='cd ../..'
+alias .3='cd ../../..'
+alias .4='cd ../../../..'
+alias .5='cd ../../../../..'
+alias sdn='systemctl poweroff'
+alias rst='systemctl reboot'
+alias cp='cp -rf'
+alias tohere='mv -t .'
+alias system='systemctl'
+
+alias sduo='sudo'
+
+alias bgset='feh --bg-fill'
+
+alias update='sudo apt update'
+alias inst='sudo apt install'
+alias rem='sudo apt remove'
+alias autorem='sudo apt autoremove'
+alias clean='sudo apt autoclean'
+
+alias red='redshift -l 27.994402:-81.760254 -t 5200:5200' # The location was florida btw
+alias brset='brightnessctl set'
+alias brightness='brightnessctl set'
+alias date="date | awk '{print \$1, \$3}'"
+
+alias ports='sudo ss -tulanp'
+alias pyttp='python3 -m http.server 80'
+alias py='python3'
+alias info='ip -c a'
+alias wifi='nmcli d wifi'
+alias vpn='sudo openvpn'
+
+alias f='find . -name'
+
+alias smallnow='cp /usr/share/wordlists/dirbuster/directory-list-2.3-small.txt .'
+alias smolnow='cp /usr/share/wordlists/dirbuster/directory-list-2.3-small.txt .'
+alias mednow='cp /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt .'
+alias bignow='cp /usr/share/wordlists/dirbuster/directory-list-2.3-big.txt .'
+alias rocknow='cp /usr/share/wordlists/rockyou.txt .'
+alias totmp='mv -t /tmp'
+alias cptmp='cp -t /tmp'
+
+alias wordlists='cd /usr/share/wordlists'
+alias wordlist='cd /usr/share/wordlists'
+
+alias allin='chmod 777'
+alias allrun='chmod +x'
+
+alias disas='objdump -d -M intel'
+alias analyze='/home/$USER/.automation/analyzeFile.sh'
+
+alias untar='tar -xzvf'
+
+alias gp='git push -u'
+alias gu='git pull'
+alias gc='git commit'
+alias ga='git add .'
+alias gwip='git commit -m "Work In Progress"'
+
