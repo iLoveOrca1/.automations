@@ -65,3 +65,4 @@ alias gc='git commit'
 alias ga='git add .'
 alias gwip='git commit -m "Work In Progress"'
 
+alias celar='clear'
