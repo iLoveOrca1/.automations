@@ -66,3 +66,6 @@ alias ga='git add .'
 alias gwip='git commit -m "Work In Progress"'
 
 alias celar='clear'
+
+alias v='nvim'
+alias vscode='code'
