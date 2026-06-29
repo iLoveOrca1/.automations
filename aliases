@@ -29,7 +29,6 @@ alias clean='sudo apt autoclean'
 alias red='redshift -l 27.994402:-81.760254 -t 5200:5200' # The location was florida btw
 alias brset='brightnessctl set'
 alias brightness='brightnessctl set'
-alias date="date | awk '{print \$1, \$3}'"
 
 alias ports='sudo ss -tulanp'
 alias pyttp='python3 -m http.server 80'
@@ -55,7 +54,6 @@ alias allin='chmod 777'
 alias allrun='chmod +x'
 
 alias disas='objdump -d -M intel'
-alias analyze='/home/$USER/.automation/analyzeFile.sh'
 
 alias untar='tar -xzvf'
 

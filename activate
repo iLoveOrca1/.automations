@@ -1,0 +1,2 @@
+source /home/$USER/.automations/aliases
+source /home/$USER/.automations/functions
